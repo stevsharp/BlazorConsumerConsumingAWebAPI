@@ -32,8 +32,7 @@ builder.Services.AddCors(policy =>
 
 app.UseCors("CorsPolicy");
 
-7. Change
-6. Add Cors to Web Api Start Up
+7. We can use the HttpClient service provided by the framework. It is already registered in the Program.cs class:
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7195/") });
 
