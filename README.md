@@ -32,6 +32,11 @@ builder.Services.AddCors(policy =>
 
 app.UseCors("CorsPolicy");
 
+7. Change
+6. Add Cors to Web Api Start Up
+
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7195/") });
+
 ## Dependencies
 
 This project depends on the following:
