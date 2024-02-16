@@ -1,4 +1,4 @@
-# Blazor Consumer: Consuming a Web API
+# Blazor WebAssembly HttpClient – Consuming a Web API
 
 This repository contains a sample project demonstrating how to consume a Web API using Blazor, a web framework for building interactive web UIs.
 
