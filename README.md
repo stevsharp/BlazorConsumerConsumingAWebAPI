@@ -52,6 +52,3 @@ Contributions are welcome! If you have any ideas for improvement or bug fixes, f
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-Special thanks to the Blazor community and the creators of the Web API used in this project.
